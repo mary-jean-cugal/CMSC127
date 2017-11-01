@@ -1,6 +1,5 @@
 
-/*
-add your extra comments for exercise 2 instructions
+--add your extra comments for exercise 2 instructions
 -- Create a table named "users" with the following columns: 
 --     fullname     (string) 
 ---     username     (string)        unique 
@@ -10,7 +9,7 @@ add your extra comments for exercise 2 instructions
 --     password     (string) 
 --     created_at   (timestamp)     default to current timestamp 
  -- Write your query below: 
-*/
+
 CREATE TABLE users(
 	fullname VARCHAR(100),
 	username VARCHAR(15) PRIMARY KEY,
