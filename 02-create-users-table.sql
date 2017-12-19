@@ -1,4 +1,3 @@
-
 --add your extra comments for exercise 2 instructions
 -- Create a table named "users" with the following columns: 
 --     fullname     (string) 
@@ -10,9 +9,10 @@
 --     created_at   (timestamp)     default to current timestamp 
  -- Write your query below: 
 
-CREATE TABLE users(
-	fullname VARCHAR(100),
-	username VARCHAR(15) PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS users(
+	fullname VARCHAR(100) NOT NULL,
+	username VARCHAR(15) unique NOT NULL,
 	email VARCHAR(100) PRIMARY KEY,
+	password VARCHAR NOT NULL,
 	created_at TIMESTAMP DEFAULT now()
 );
