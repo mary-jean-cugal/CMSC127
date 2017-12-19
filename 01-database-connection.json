@@ -1,32 +1,18 @@
 {
-
   "development": {
-
     "host": "localhost",
-
     "database": "development",
-
     "port": 5432,
-
     "user": "denden",
-
-    "password": "denden"
-
+    "password": "mvcugal"
   },
-
   "test": {
-
     "host": "localhost",
-
     "database": "test",
-
     "port": 5432,
-
     "user": "dandan",
-
-    "password": "dandan"
-
+    "password": "mvcugal"
   }
-
 }
+
 
