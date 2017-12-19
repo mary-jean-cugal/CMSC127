@@ -13,6 +13,6 @@
 --     result : SOME AWESOME QUERY user = 'arnellebalane@gmail.com';
 --
 -- Write your query below:
-INSERT INTO tweets(body, user_email)(
-	('{{body}}', '{{email}}')
+INSERT INTO tweets(body, user_email) VALUES (
+	'{{body}}', '{{user_email}}'
 );
